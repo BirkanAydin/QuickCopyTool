@@ -1,0 +1,16 @@
+﻿https://blog.jsinh.in/drag-and-drop-files-into-your-wpf-application-with-mvvm/#.W50zAugzaUk
+https://github.com/punker76/gong-wpf-dragdrop
+http://www.technical-recipes.com/2016/using-relaycommand-icommand-to-handle-events-in-wpf-and-mvvm/
+MVVMDemo project, i did it for myself
+System.Windows.Interactivity is necessary for event triggers. This dll needs blend sdk.
+
+EventTriggers
+   <!--<i:Interaction.Triggers>
+                <i:EventTrigger EventName="DragEvent">
+                    <i:InvokeCommandAction Command="{Binding Path=WrapPanel_DragOver}"/>
+                </i:EventTrigger>
+                <i:EventTrigger EventName="DropEvent">
+                    <i:InvokeCommandAction Command="{Binding Path=WrapPanel_Drop}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>--
+https://github.com/gSerP1983/OpenXml.Excel.Data
